@@ -1,0 +1,675 @@
+.navlist {
+  list-style: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 45px;
+  /* left: 0; */
+  bottom: 0;
+  width: 37vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ecece2;
+  text-align: center;
+}
+
+.Logo {
+  height: 1.2rem;
+
+}
+
+.navlist.open {
+  display: flex; /* Show when menu is open */
+}
+
+.Top {
+  display: flex;
+  justify-content: center;
+  gap: 60rem;
+  position: fixed;
+  width: 100%;
+  padding-top: 2rem;
+  z-index: 10;
+  /* background-color: #fff; */
+}
+
+.hamburger {
+  height: 2rem;
+  color: black;
+}
+
+li {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-top: 0rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.first_wrapper {
+  margin-top: 8rem;
+  width: 50%;
+}
+
+.section-one {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.Zoe {
+  z-index: 0;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+}
+
+body {
+  background-color: #20202c;
+}
+
+.name {
+  color: rgb(10, 176, 176);
+  font-weight: bold;
+}
+
+.miller {
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: black;
+}
+
+.hello {
+  font-weight: bold;
+  margin-bottom: 0rem;
+  color: black;
+}
+
+.curly {
+  color: rgb(10, 176, 176);
+}
+
+.dev {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.wordpress {
+  width: 26rem;
+  font-size: 18px;  
+}
+
+.behance {
+  gap: 2rem;
+  display: flex;
+}
+
+.moon {
+  border: none;
+}
+
+.down {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2.8rem;
+  padding-left: 2.8rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.down:hover {
+  background-color: rgb(10, 176, 176);
+  border: 2px solid white;
+  color: white;
+}
+
+.kills {
+  text-transform: uppercase;
+  margin-top: 2.4rem;
+  font-weight: bold;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 5rem;
+}
+
+.pat {
+  width: 8rem;
+  position: absolute;
+  left: 32.3rem;
+  bottom: -9%;
+}
+
+.patsec {
+  width: 8rem;
+  position: absolute;
+  left: 67.8rem;
+  bottom: -14%;
+}
+
+.patthird {
+  width: 8rem;
+  position: absolute;
+  left: 62.8rem;
+  bottom: 76%;
+  z-index: -10;
+}
+
+.thirty {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 1px solid black;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  width: 11rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  left: 36.3rem;
+  bottom: 7%;
+  background-color: #fff;
+}
+
+.numerical {
+  font-size: 25px;
+  margin: 0;
+}
+
+.exper {
+  text-align: left;
+}
+
+.proj {
+  text-align: left;
+}
+
+.forty {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 1px solid black;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  width: 11rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  left: 60.3rem;
+  bottom: -1%;
+  background-color: #fff;
+}
+
+.what {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.pato {
+  width: 8rem;
+  /* position: absolute;
+  bottom: -14%; */
+  /* left: 67.8rem; */
+
+}
+
+.first_box {
+  background-color: #fff;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  width: 22rem;
+  border-radius: 20px;
+}
+
+.first_box:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.craft {
+  width: 19rem;
+}
+
+.price {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+}
+
+.first_section {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.lorem {
+  width: 23rem;
+}
+
+.range {
+  width: 23rem;
+}
+
+.php {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.magna {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.zoro {
+  height: 14rem;
+  width: 20rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.vue {
+  text-align: center;
+}
+
+.null {
+  display: none;
+}
+
+.wil {
+  height: 12rem;
+  border-radius: 15px;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.pace {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bara {
+  line-height: 0;
+  padding-top: 1.6rem;
+}
+
+.amet {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.lister {
+  font-size: 15px;
+  line-height: 1.5;
+  list-style: none;
+  font-weight: normal;
+}
+
+.ject {
+  position: absolute;
+  width: 19.5rem;
+  /* left: 0;
+  bottom: 0; */
+}
+
+.auto {
+  margin-left: 13.5rem;
+}
+
+.vert {
+  text-decoration: line-through;
+}
+
+.shaft {
+  width: 20rem;
+}
+
+.content_box {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.flower {
+  height: 11rem;
+  width: 20rem;
+  border-radius: 15px;
+  padding-bottom: 1.5rem;
+}
+
+.lacus {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.flag {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ecece2;
+  border-radius: 50%;
+  padding: 0.8rem;
+  border: 2px solid black;
+}
+
+.avail {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 2rem;
+}
+
+.dress {
+  line-height: 0.7;
+}
+
+.full {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.sern {
+  height: 4rem;
+  background-color: #ecece2;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 15rem;
+  
+}
+
+.spurn {
+  text-align: center;
+  font-weight: bold;
+}
+
+.subset {
+  height: 3.4rem;
+  background-color: #ecece2;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 33rem;
+}
+
+.surf {
+  background-color: #ecece2;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 31.5rem;
+  padding: 1rem;
+}
+
+.iterate {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.depth {
+  margin-top: 3rem;
+}
+
+.ideas {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.tower {
+  margin-top: 5rem;
+}
+
+.assets {
+  padding-left: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.signs {
+  margin-left: 1rem;
+}
+
+@media (max-width: 436px) {
+  .Top {
+    gap: 12rem;
+}
+
+.section-one {
+  display: grid;
+}
+
+.pat {
+  display: none;
+}
+
+.patsec {
+  display: none;
+}
+
+.patthird {
+  display: none;
+}
+
+.Zoe {
+  height: 25rem;
+  padding-bottom: 14rem;
+}
+
+.thirty {
+  width: 8.5rem;
+  gap: 0.7rem;
+  position: absolute;
+  left: 1rem;
+  bottom: -9%;
+  height: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.3rem;
+  padding-left: 0;
+  padding-right: 0;
+  /* z-index: 10; */
+}
+
+.numerical {
+  font-size: 0.9rem;
+}
+
+.exper  {
+  font-size: 0.7rem;
+}
+
+.load {
+  position: absolute;
+  left: 2rem;
+  bottom: -68%;
+  gap: 3rem;
+}
+
+.books {
+  justify-content: center;
+  text-align: center;
+}
+
+.forty {
+  width: 8rem;
+  gap: 0.6rem;
+  position: absolute;
+  left: 17rem;
+  bottom: -22%;
+  height: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.3rem;
+  padding-left: 0;
+  padding-right: 0;
+  /* z-index: 10; */
+}
+
+.wordpress {
+  position: absolute;
+  left: 1.5rem;
+  bottom: -47.5%;
+  font-size: 1rem;
+  width: 85%;
+  justify-content: center;
+  text-align: center;
+}
+
+.behance {
+  position: absolute;
+  left: 1.5rem;
+  bottom: -52.5%;
+  font-size: 1rem;
+  width: 85%;
+  justify-content: center;
+}
+
+.proj {
+  font-size: 0.7rem;
+}
+
+.amet {
+  display: grid;
+}
+
+.content_box {
+  display: grid;
+}
+
+.first_section {
+  display: grid;
+}
+
+.magna {
+  display: grid;
+}
+
+.brand {
+  display: grid;
+}
+
+.lacus {
+  display: grid;
+}
+
+.ideas {
+  display: grid;
+  margin-left: 2rem;
+ 
+  gap: 0rem;
+}
+
+.full {
+  display: grid;
+}
+
+.subset {
+  width: 20rem;
+}
+
+.surf {
+  width: 20rem;
+}
+
+.curly {
+  font-size: 3.5rem;
+}
+
+.hut {
+  font-size: 3.5rem;
+}
+
+.miller {
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.8rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.howard {
+  text-align: center;
+}
+
+.first_wrapper {
+  width: 100%;
+}
+
+.dev {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.full {
+  justify-content: start;
+  
+}
+
+.sern {
+  width: 22rem;
+  height: 3rem;
+}
+
+.spurn {
+  text-align: left;
+}
+
+.subset {
+  height: 3rem;
+  width: 22rem;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+  
+}
